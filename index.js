@@ -37,6 +37,10 @@ app.get("/", (req, res) => {
   res.send("BFHL API is running 🚀. Use POST /bfhl");
 });
 
+app.get("/bfhl", (req, res) => {
+  res.send("BFHL API is running 🚀. Use POST /bfhl");
+});
+
 
 // Route
 app.post("/bfhl", (req, res) => {
